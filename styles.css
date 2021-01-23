@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@900&family=PT+Serif+Caption&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bevan&display=swap');
+
+*
+{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto Condensed" sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(https://top-barbershop.com/media/2019/04/3e1ebcd5fa797cebebf592a617fef009.jpg) no-repeat;
+    background-size: 100%;
+}
+
+body .two{
+    background: #fff;
+
+}
+
+section{
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    min-height: 100hv;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(59, 50, 45, 0.7);
+    background-attachment: scroll;
+}
+
+section a img .logo{
+    width: 50px;
+}
+
+header{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    padding: 10px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    max-width: 50px;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    color:#fff;
+    font-weight: 400;
+    font-size: 17px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-family: "Roboto Condensed";
+    transition: 0.3s;
+}
+
+header ul li a:hover{
+    color: rgb(228, 222, 222);
+}
+
+.oeg{
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-family: "Roboto Condensed";
+}
+
+#content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.zag{
+    position: relative;
+    max-width: 400px;
+    margin-top: 15%;
+    margin-left: 39%;
+    font-family: "PT Serif Caption";
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+.text{
+    position: absolute;
+    margin-left: 26%;
+    margin-top: 35%;
+    font-family: "Bevan";
+    font-size: 90px;
+    color: #fff;
+
+}
+
+
+.arrow{
+    list-style: none;
+    margin-top: 15%;
+    transform: rotate(135deg); 
+    width: 60px;
+    height: 60px;
+    border-top: 10px solid #ffffff;
+    border-right: 10px solid #ffffff;
+    margin-left: 48%;
+    cursor: pointer;
+}
+
+#inf{
+    width: 45%;
+    float: right;
+}
+
+.img{
+    width: 55%;
+    float: left;
+}
+
+.rimg{
+    position: relative;
+    margin-left: 200px;
+    margin-top: 63%;
+}
+
+.hist{
+    position: relative;
+    max-width: 100px;
+    margin-top: 100%;
+    font-family: "Roboto Condensed";
+    font-size: 100px;
+    color: rgb(170, 103, 67);
+}
+
+#info{
+    position: relative;
+    margin-top: 54%;
+    width: 25%;
+    margin-left: 50%;
+}
+
+.maininf{
+    font-family: "Roboto Condensed";
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.mainit{
+    margin-top: 4%;
+    font-family: "Roboto Condensed";
+    line-height: 1.7;
+}
+
+#fon2{
+    position: relative;
+    background: url(https://static.wixstatic.com/media/43c038_daee9005e3a741ccbc28e0dbe9bd1cde~mv2.jpg/v1/fill/w_980,h_1080,al_c,q_85/43c038_daee9005e3a741ccbc28e0dbe9bd1cde~mv2.webp) no-repeat;
+    background-size: 100%;
+    height: 1300px;
+    margin-top: 22%;
+}
+
+.ysl{position: relative;
+    font-family: "Roboto Condensed";
+    margin-left: 38%;
+    font-size: 100px;
+    font-weight: bold;
+    top: 100px;
+    color: #fff;
+}
+
+.usly{
+    position: relative;
+    font-family: "Roboto Condensed";
+    color: #fff;
+    padding: 0 100px;
+    top: 200px;
+    font-size: 40px;
+    line-height: 3;
+}
+
+hr{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    height: 2px;
+    padding: 0 100px;
+    line-height: 3;
+}
+
+.onet{
+    margin-left: 700px;
+}
+
+.twot{
+    margin-left: 880px;
+}
+
+.threet{
+    margin-left: 775px;
+}
+
+.fourt{
+    margin-left: 750px;
+}
+
+.fivet{
+    margin-left: 737px;
+}
+
+.sixt{
+    margin-left: 767px;
+}
+
+.sevent{
+    margin-left: 686px;
+}
+
+#galer{
+    position: relative;
+    margin-top: 9%;
+    margin-left: 37%;
+    z-index: 3;
+    font-size: 50px;
+    font-family: "Roboto Condensed";
+    font-weight: bold;
+    color: rgb(170, 103, 67);
+}
+
+.phot{
+    position: relative;
+    padding: 0 20px;
+    top: 80px;
+}
+
+.pho1{
+    width: 450px;
+    height: 300px;
+}
+
+.pho2{
+    width: 450px;
+    height: 300px;
+}
+
+.pho3{
+    width: 475px;
+    height: 300px;
+}
+
+.pho4{
+    width: 1383px;
+    height: 1000px;
+}
+
+.pho5{
+    width: 700px;
+    height: 450px;
+}
+
+.pho6{
+    width: 679px;
+    height: 450px;
+}
+
+#fon3{
+    position: relative;
+    background: url(https://static.wixstatic.com/media/43c038_e2dc6c2daf934f67bd09ef46234bd05e~mv2.jpg/v1/fill/w_980,h_780,al_c,q_85,usm_0.66_1.00_0.01/43c038_e2dc6c2daf934f67bd09ef46234bd05e~mv2.webp) no-repeat;
+    background-size: 100%;
+    height: 700px;
+    margin-top: 17%;
+}
+
+.svaz{
+    position: relative;
+    font-family: "Roboto Condensed";
+    margin-left: 34%;
+    font-size: 100px;
+    font-weight: bold;
+    top: 100px;
+    color: #fff;
+}
+
+.kont{
+    position: relative;
+    top: 25%;
+    left: 20%;
+    color: #fff;
+    font-family: "Roboto Condensed";
+    font-size: 25px;
+}
+
+.kont2{
+    position: relative;
+    top: 25%;
+    right: -37%;
+    color: #fff;
+    font-family: "Roboto Condensed";
+    font-size: 25px;
+}
+
+.tel{
+    position: relative;
+    top: 35%;
+    left: 7.5%;
+    color: #fff;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+}
+
+.tel2{
+    position: relative;
+    top: 40%;
+    left: -2.2%;
+    color: #fff;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+}
+
+.pn{
+    position: relative;
+    top: 35%;
+    left: 24.56%;
+    color: #fff;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+}
+
+.vt{
+    position: relative;
+    top: 40%;
+    left: 13%;
+    color: #fff;
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+}
